@@ -23,19 +23,41 @@ function HomeSummary() {
         </p>
       </Row>
       <Row>
-        <Col>
+        <Col xs={4} md={4}>
           <div className="red-circle">
-            <a className="nav-text">Resume <GrDocumentText/></a>
+            <a
+              className="nav-text"
+              href="https://www.example.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Resume <GrDocumentText />
+            </a>
           </div>
         </Col>
-        <Col>
+        <Col xs={4} md={4}>
           <div className="blue-circle">
-            <a className="nav-text">Open Houses <FaHouseChimney/></a>
+            <a
+              className="nav-text"
+              href="https://www.example.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open Houses <FaHouseChimney />
+            </a>
           </div>
         </Col>
-        <Col>
+        <Col xs={4} md={4}>
           <div className="white-circle">
-            <a className="nav-text">Contact<IoMdContact/></a>
+            <a
+              className="nav-text"
+              href="https://www.example.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contact
+              <IoMdContact />
+            </a>
           </div>
         </Col>
       </Row>

@@ -38,25 +38,25 @@ function HomeNav() {
         >
           <Nav className="pe-3">
             <Nav.Link
-              href="https://www.raypec.org/o/rphs/page/high-school-xc-team"
+              href="https://www.example.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <p className="sub-title">
-                Resume <GrDocumentText />|
+                Resume <GrDocumentText />
               </p>
             </Nav.Link>
             <Nav.Link
-              href="https://www.raymore.com/government/city-departments/parks-recreation/parks"
+              href="https://www.example.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <p className="sub-title">
-                Open Houses <FaHouseChimney />|
+                Open Houses <FaHouseChimney />
               </p>
             </Nav.Link>
             <Nav.Link
-              href="https://www.raymore.com/government/city-departments/parks-recreation/parks"
+              href="https://www.example.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
